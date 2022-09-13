@@ -56,28 +56,28 @@ export const Projects = () => {
 
     const backEndProjects = [
         {
-        title: "API: e-commerce",
-        description: "Design & Development",
+        title: "API: e-commerce (1/2)",
+        description: "NodeJS, ExpressJS, Sequelize, Pug, Firebase, Nodemailer, Multer, Helmet",
         imgUrl: apiEcommerceCode,
-        url: ''
+        url: apiEcommerceCode
         },
         {
-        title: "API: e-commerce",
-        description: "Design & Development",
+        title: "API: e-commerce (2/2)",
+        description: "NodeJS, ExpressJS, Sequelize, Pug, Firebase, Nodemailer, Multer, Helmet",
         imgUrl: apiEcommerce,
-        url: ''
+        url: apiEcommerce
         },
         {
-        title: "API: meals (as Uber Eats)",
-        description: "Design & Development",
+        title: "API: meals (1/2)",
+        description: "NodeJS, ExpressJS, Sequelize, JsonWebToken, PostgreSQL",
         imgUrl: apiMealsCode,
-        url: ''
+        url: apiMealsCode
         },
         {
-        title: "API: meals (as Uber Eats)",
-        description: "Design & Development",
+        title: "API: meals (2/2)",
+        description: "NodeJS, ExpressJS, Sequelize, JsonWebToken, PostgreSQL",
         imgUrl: apiMeals,
-        url: ''
+        url: apiMeals
         }
     ];
 

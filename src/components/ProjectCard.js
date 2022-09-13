@@ -12,8 +12,8 @@ export const ProjectCard = ({ title, description, imgUrl, url }) => {
                                 <span>{description}</span>
                             </div>
                         ) : (
-                            <div className="proj-txtx cursor-pointer" >
-                                <h4 onClick={() => window.open(url, '_blank')}>{title}</h4>
+                            <div className="proj-txtx cursor-pointer" onClick={() => window.open(url, '_blank')}>
+                                <h4>{title}</h4>
                                 <span>{description}</span>
                             </div>
                         )

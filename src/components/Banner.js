@@ -68,8 +68,14 @@ export const Banner = () => {
                                             </span>
                                         </span>
                                     </h1>
-                                    <p>Analytical full stack developer who always seeks to learn about new technologies with a great passion for numbers, programming and data visualization. Very curious about the digital transformation such as fintech, data science, machine learning and artificial intelligence</p>
-                                    Starting my programmer career as a Web Full Stack Developer. Passionate about what I do and always excels what has to be done. I will become an ML/AI developer.
+                                    <p>
+                                        <b>In love with life. In love with sports. In love with programming.</b> 
+                                        <br/>
+                                        <br/>
+                                        I am driven by learning and discovering new technologies, achieving goals and getting things done. Hopefully, I will make an impact in society through doing what I like which is programming unique ideas and developing innovative projects.
+                                        <br/>
+                                        Very curious about digital transformation such as fintech, data science, machine learning and artificial intelligence
+                                    </p>
                                     <button>
                                         <a href="#connect">
                                             Let’s Code Together <ArrowRightCircle size={25} />
