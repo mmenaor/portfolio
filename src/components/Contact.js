@@ -3,14 +3,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import marioMena from "../assets/img/mario-mena.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 import ModalEmailSend from './ModalEmailSend';
 
 export const Contact = () => {
     const [ userName, setUserName ] = useState('')
     const [ email, setEmail ] = useState('')
     const [ message, setMessage ] = useState('')
-    const [buttonText, setButtonText] = useState('Send');
+    // const [buttonText, setButtonText] = useState('Send');
     const form = useRef();
     
     const [show, setShow] = useState(false);
@@ -73,7 +73,7 @@ export const Contact = () => {
                                             </Col>
                                             <Col size={12} className="px-1">
                                                 <textarea value={message} rows="6" placeholder="Message" onChange={(e) => setMessage(e.target.value)} ></textarea>
-                                                <button type="submit"><span>{buttonText}</span></button>
+                                                <button type="submit"><span>Send</span></button>
                                             </Col>
                                         </Row>
                                     </form>

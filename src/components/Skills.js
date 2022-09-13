@@ -135,51 +135,51 @@ export const Skills = () => {
                             <p>I believe hard skills are a matter of practice and passion.<br></br> I am able to use these languajes/libraries/frameworks but more importantly I have the ability to read documentation and browse the web in order to find a solution.</p>
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
-                                    <img src={gitLogo} alt="Image" />
+                                    <img src={gitLogo} alt="git logo" />
                                     <h5>Git</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={htmlLogo} alt="Image" />
+                                    <img src={htmlLogo} alt="html logo" />
                                     <h5>HTML5</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={cssLogo} alt="Image" className="css-logo" />
+                                    <img src={cssLogo} alt="css logo" className="css-logo" />
                                     <h5>CSS3</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={javascriptLogo} alt="Image" />
+                                    <img src={javascriptLogo} alt="javascript logo" />
                                     <h5>JavaScript</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={reactLogo} alt="Image" />
+                                    <img src={reactLogo} alt="react logo" />
                                     <h5>React</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={reduxLogo} alt="Image" />
+                                    <img src={reduxLogo} alt="redux logo" />
                                     <h5>Redux</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={nodejsLogo} alt="Image" />
+                                    <img src={nodejsLogo} alt="nodejs logo" />
                                     <h5>Node JS</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={expressjsLogo} alt="Image" />
+                                    <img src={expressjsLogo} alt="expressjs logo" />
                                     <h5>Express JS</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={sequelizeLogo} alt="Image" />
+                                    <img src={sequelizeLogo} alt="sequelize logo" />
                                     <h5>Sequelize</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={postgresqlLogo} alt="Image" />
+                                    <img src={postgresqlLogo} alt="postgresql logo" />
                                     <h5>PostgreSQL</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={pythonLogo} alt="Image" />
+                                    <img src={pythonLogo} alt="python logo" />
                                     <h5>Python (in progress)</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={djangoLogo} alt="Image" />
+                                    <img src={djangoLogo} alt="django logo" />
                                     <h5>Django (in progress)</h5>
                                 </div>
                             </Carousel>
