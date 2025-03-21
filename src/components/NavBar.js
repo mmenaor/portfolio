@@ -44,7 +44,7 @@ export const NavBar = () => {
 
     const onButtonClick = () => {
         // using Java Script method to get PDF file
-        fetch('CV - english - Mario Mena.pdf')
+        fetch('CV - spanish - Mario Mena.pdf')
             .then(response => {
             response.blob()
                 .then(blob => {
@@ -53,7 +53,7 @@ export const NavBar = () => {
                     // Setting various property values
                     let alink = document.createElement('a');
                     alink.href = fileURL;
-                    alink.download = 'CV - english - Mario Mena.pdf';
+                    alink.download = 'CV - spanish - Mario Mena.pdf';
                     alink.click();
                 })
             }
